@@ -1,0 +1,23 @@
+.table-item__td {
+  width: 20%;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  font-weight: 600;
+}
+
+.table-item__tr {
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgba(250, 228, 196, 0.589);
+}
+
+.link-fhoto {
+  text-decoration: none;
+  color: black;
+}
+
+
+.table-item__tr:hover {
+  cursor: pointer;
+  background-color: #ff7b00a9;
+}

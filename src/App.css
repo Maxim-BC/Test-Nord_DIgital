@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App__main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: calc(90vh - 110px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.item-none {
+  display: none;
+}
+
+.item-block {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.459);
+}
