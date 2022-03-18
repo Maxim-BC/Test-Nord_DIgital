@@ -11,12 +11,6 @@
   background-color: rgba(250, 228, 196, 0.589);
 }
 
-.link-fhoto {
-  text-decoration: none;
-  color: black;
-}
-
-
 .table-item__tr:hover {
   cursor: pointer;
   background-color: #ff7b00a9;

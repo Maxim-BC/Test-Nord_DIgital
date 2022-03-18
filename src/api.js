@@ -10,5 +10,3 @@ export async function apiGetList() {
   const body = await response.json();
   return body;
 }
-
-

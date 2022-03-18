@@ -21,20 +21,3 @@
   overflow-x: hidden;
   overflow-y: auto;
 }
-
-.item-none {
-  display: none;
-}
-
-.item-block {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.459);
-}
