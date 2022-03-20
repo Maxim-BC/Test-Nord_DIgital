@@ -3,6 +3,8 @@
   border-right: solid black 1px;
   border-top: solid black 1px;
   font-weight: 600;
+  min-width: 200px;
+  max-width: 350px;
 }
 
 .table-item__tr {

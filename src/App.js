@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App__header">
-        <h1>Test</h1>
+        <h1 className="App__header__h1">Test</h1>
       </header>
       <main className="App__main">
         <Table getTargetItem={getTargetItem} list={list} />
